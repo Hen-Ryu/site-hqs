@@ -1,0 +1,51 @@
+@media(max-width: 1280px){
+    .cabecalho{
+        padding: 30px;
+    }
+}
+
+.home{
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    gap: 10px;
+}
+
+.home .informacoes{
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.secao-hqs .container-marvel{
+    padding: 0 15px;
+}
+
+.secao-hqs .container-dc{
+    padding: 0 15px;
+}
+
+.secao-hqs .container-recomendacoes{
+    padding: 0 15px;
+    margin-bottom: 8%;
+}
+
+@media(max-width: 425px){
+    .menu{
+        display: none;
+    }
+
+    .home .informacoes h1{
+        font-size: 30px;
+    }
+
+    .home .container-foto img{
+    max-width: 310px;
+    align-items: center;
+    }
+
+    .secao-hqs{
+    padding: 30px;} 
+}
